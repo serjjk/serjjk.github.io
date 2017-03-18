@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
     background-color: #ffffff;
     box-shadow: 0px 3px 3px 2px rgba(0, 0, 0, 0.2);
-
+    padding-bottom: 40px;
 }
 
 .logo {
@@ -26,11 +26,12 @@ body {
     font-size: 13px;
     width: 962px;
     margin: auto;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
 }
 
 .top li {
     display: inline-block;
-    margin: 0px 25px;
 }
 
 .top li:first-child {
@@ -43,6 +44,7 @@ body {
     font-size: 13px;
     color: #ffffff;
     line-height: 40px;
+    margin: 0px 10px;
 }
 
 .top a:hover {
@@ -75,7 +77,7 @@ a {
 }
 
 .left:last-child {
-  border-bottom: 0px;
+    border-bottom: 0px;
 }
 
 .left a {
@@ -110,7 +112,6 @@ footer {
     margin: auto;
     width: 962px;
     font-size: 13px;
-
 }
 
 .bottom li {
@@ -135,5 +136,5 @@ footer {
 .copyright {
     width: 220px;
     float: right;
-    margin-top: 10px;
+    line-height: 40px;
 }
