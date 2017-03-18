@@ -26,8 +26,6 @@ body {
     font-size: 13px;
     width: 962px;
     margin: auto;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
 }
 
 .top li {
@@ -39,6 +37,8 @@ body {
 }
 
 .top a {
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
     display: block;
     padding: 0px 25px;
     font-size: 13px;
