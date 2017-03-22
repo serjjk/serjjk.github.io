@@ -177,6 +177,7 @@ ul.submenu a:hover {
 .content {
     overflow: hidden;
     text-align: center;
+    line-height: 2;
 }
 
 .leftcolumn, .centercolumn, .rightcolumn {
@@ -207,4 +208,6 @@ ul.submenu a:hover {
     color: #fff;
     text-align: center;
     font-size: 12px;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
