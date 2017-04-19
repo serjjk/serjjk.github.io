@@ -11,10 +11,7 @@
          url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
          url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
          url('../fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
+    }
 
 body {
     background: url(../img/bg.jpg) no-repeat 50% 0;
@@ -121,18 +118,18 @@ ul {
 
 .content h2 {
     padding: 20px 0;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
     margin: 0 0 35px 0;
     color: #fff;
     font-size: 24px;
     text-align: center;
+    font-weight: lighter;
+
+
 }
 
-.button-facebook {
-    width: 275px;
-    height: 35px;
-    margin: 0 auto;
-    background-color: #334b87;
+.button img {
+  
 }
 
 .contact-form {
@@ -179,7 +176,6 @@ input::-webkit-input-placeholder {
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus {
-    outline: none;
     border-bottom: 1px solid #689bcc;
     color: #ccc;
     background-color: #1b5288;
