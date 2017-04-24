@@ -128,8 +128,12 @@ ul {
 
 }
 
-.button img {
-  
+.button span.bold {
+    font-weight: bold;
+}
+
+.button fb {
+padding: 0 24px;
 }
 
 .contact-form {
